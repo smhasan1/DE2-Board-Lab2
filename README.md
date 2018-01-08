@@ -28,7 +28,7 @@ Perform the following steps:
 **Part 2:**  
 Figure 2(a) shows a circuit for a full adder, which has the inputs a, b, and ci, and produces the outputs s and co. Parts b and c of the figure show a circuit symbol and truth table for the full adder, which produces the two-bit binary sum cos = a + b + ci. Figure 2(d) shows how four instances of this full adder module can be used to design a circuit that adds two four-bit numbers. This type of circuit is usually called a ripple-carry adder, because of the way that the carry signals are passed from one full adder to the next. Write Verilog code that implements this circuit, as described below.  
 
-
+![image](https://user-images.githubusercontent.com/19510655/34677781-2c7afd96-f45f-11e7-999d-e18f6e53eac7.png)  
 Figure 2. A ripple-carry adder circuit.  
 
   1. Create a new Quartus II project for the adder circuit. Write a Verilog module for the full adder sub-circuit and write a top-level Verilog module that instantiates four instances of this full adder.  
