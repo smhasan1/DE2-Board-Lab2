@@ -15,7 +15,7 @@ Table 1. Rotating the word EE 3201 on seven displays from HEX6 down to HEX0.
 | 101  | 01EE 32 |
 | 110  | 1EE 320 |
 
-
+![image](https://user-images.githubusercontent.com/19510655/34677048-e86f1300-f45c-11e7-96f6-c61162290860.png)  
 Figure 1. Verilog code skeleton  
 
 Perform the following steps:
