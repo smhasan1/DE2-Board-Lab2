@@ -25,7 +25,7 @@ Perform the following steps:
   4. Compile the project.  
   5. Download the compiled circuit into the FPGA chip. Test the functionality of the circuit by setting the proper character codes on the switches SW17−0 and then toggling KEY2−0 to observe the rotation of the characters.  
 
-**Part 2:**
+**Part 2:**  
 Figure 2(a) shows a circuit for a full adder, which has the inputs a, b, and ci, and produces the outputs s and co. Parts b and c of the figure show a circuit symbol and truth table for the full adder, which produces the two-bit binary sum cos = a + b + ci. Figure 2(d) shows how four instances of this full adder module can be used to design a circuit that adds two four-bit numbers. This type of circuit is usually called a ripple-carry adder, because of the way that the carry signals are passed from one full adder to the next. Write Verilog code that implements this circuit, as described below.  
 
 
@@ -47,7 +47,7 @@ Table 2. Functions that can be performed by the ALU.
 | Q2 Q1 Q0  | Output Z |
 | ------------- | ------------- |
 | 000  | 𝐴̅ 𝑜𝑟 𝐵 |
-| 001  | 𝐴̅ 𝑜𝑟 ̅B |
+| 001  | 𝐴̅ 𝑜𝑟 B̅ |
 | 010  | 𝐴̅ |
 | 011  | 𝐴 𝐴𝑁𝐷 𝐵 |
 | 100  | 𝐴 + 𝐵 (𝑎𝑑𝑑𝑖𝑡𝑖𝑜𝑛) |
